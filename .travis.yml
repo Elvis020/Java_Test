@@ -3,6 +3,3 @@ install: skip
 
 os: linux
 jdk: openjdk11
-script:
-  - ./gradlew build --scan -s
-
