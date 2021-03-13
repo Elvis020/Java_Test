@@ -1,4 +1,6 @@
-"language": "java"
-"jdk":[
-    "-javac 11.0.10"
-]
+language: java
+install: skip
+jdk: javac 11.0.10
+script:
+    -./gradlew build --scan -s
+
