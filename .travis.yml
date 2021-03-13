@@ -2,7 +2,7 @@ language: java
 install: skip
 
 os: linux
-jdk: javac 11.0.10
+jdk: openjdk11
 script:
   - ./gradlew build --scan -s
 
