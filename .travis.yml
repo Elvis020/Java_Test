@@ -1,3 +1,4 @@
-language: java
-jdk:
-    -javac 11.0.10
+"language": "java"
+"jdk":[
+    "-javac 11.0.10"
+]
